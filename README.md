@@ -39,17 +39,25 @@ This project demonstrates low-level game programming using screen manipulation, 
 ---
 
 ## How to Run
-1. Assemble the code:
-   With NASM:
-```bash
-   nasm pingpong.asm -o pingpong.com
 
-With TASM:
- ```bash
-tasm pingpong.asm
-tlink pingpong.obj
+## How to Run
+
+1. Assemble the Code:
+   - **With NASM:**
+     ```bash
+     nasm pingpong.asm -o pingpong.com
+     ```
+   - **With TASM:**
+     ```bash
+     tasm pingpong.asm
+     tlink pingpong.obj
+     ```
 
 2. Run the Game:
-Using DOSBox:
- ```bash
-afd pingpong.com
+   - **Using DOSBox:**
+     ```bash
+     afd pingpong.com
+     ```
+
+
+
